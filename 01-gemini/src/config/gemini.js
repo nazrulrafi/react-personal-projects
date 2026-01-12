@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 const apiKey = "AIzaSyBdM5k2-o-U_tK9RAAsOKtlWEc0Y_wDtok";
 const genAI = new GoogleGenerativeAI(apiKey); // ✅ No need for object with { apiKey }
 
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+const model = genAI.getGenerativeModel({ model: "01-gemini-1.5-flash" });
 
 async function runChat(promptText) {
     try {
