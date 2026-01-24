@@ -1,0 +1,16 @@
+// pages/Logout.jsx
+import { useEffect, useContext } from "react";
+import { useNavigate } from "react-router-dom";
+import { AuthContext } from "../context/AuthContext.jsx";
+
+export default function Logout() {
+    const { logout } = useContext(AuthContext);
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        logout(); // clear user and localStorage
+        navigate("/?mode=login", { replace: true }); // redirect to login
+    }, []);
+
+    return null; // optional: show spinner or message while redirecting
+}

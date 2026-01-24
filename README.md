@@ -11,3 +11,4 @@ Here are some of my personal React projects:
 7. [Agency Ai Landing Page](https://creative-dodol-65afb3.netlify.app/)
 8. [Hotel Booking App](https://incredible-fenglisu-267f56.netlify.app/)
 9. [News Api Website](https://github.com/nazrulrafi/react-personal-projects/tree/main/09-news-website)
+10. [Dashboard](https://legendary-chimera-07453b.netlify.app/)
